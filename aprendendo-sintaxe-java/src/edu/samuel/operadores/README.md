@@ -7,9 +7,9 @@ Utilizado para colocar um valor inicial para uma variável ou alterar esse valor
 ### Aritméticos
 
 São utilizados para realizar operações matemáticas entre valores numéricos, são eles:
- - + (adição)
- - - (Subtração)
- - * (multiplicação)
+ - \+ (adição)
+ - \- (Subtração)
+ - \* (multiplicação)
  - / (divisão)
  - % (módulo) verifica se a divisão resulta em números fracionados.
 
@@ -29,7 +29,7 @@ São aplicados juntamente com outro operador aritmético. Realizam o trabalho de
 É uma forma resumida para definir uma condição e escolher por um dentre dois valores. Deve-se pensar como um 'IF' normal escrito em uma única linha.
 É representado pelos símbolos ':' e '?', utilizados na seguinte estrutura de sintaxe:
 
-<condição booleana> ? <verdadeiro> : <falso>
+<condição booleana> ? \<verdadeiro> : \<falso>
 
 ### Relacionais
 
@@ -40,17 +40,17 @@ São operadores que avaliam a relação entre duas variáveis, se elas são igua
 Representam o recurso que nos permite criar expressões lógicas.
 são os símbolos: && (and) e  || (or) utilizados na tabela verdade
 
-&&
-V + V = V
-F + F = F
-V + F = F
-F + V = F
+&&<br>
+V + V = V<br>
+F + F = F<br>
+V + F = F<br>
+F + V = F<br>
 
-||
-V + V = V
-F + F = F
-V + F = V
-F + V = V
+||<br>
+V + V = V<br>
+F + F = F<br>
+V + F = V<br>
+F + V = V<br>
 
 
 
