@@ -1,4 +1,5 @@
-package edu.samuel.terminal;
+package edu.aprendendoSintaxe.terminal;
+
 
 
 /*

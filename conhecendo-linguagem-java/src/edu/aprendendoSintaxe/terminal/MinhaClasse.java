@@ -1,4 +1,6 @@
-package edu.samuel.terminal;
+package edu.aprendendoSintaxe.terminal;
+
+
 
 public class MinhaClasse {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package edu.samuel.metodos;
+package edu.aprendendoSintaxe.metodos;
+
+
 
 public class Usuario {
     public static void main(String[] args) {

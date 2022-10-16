@@ -1,4 +1,6 @@
-package edu.samuel.metodos;
+package edu.aprendendoSintaxe.metodos;
+
+
 
 public class SmartTv {
     boolean ligada = false;

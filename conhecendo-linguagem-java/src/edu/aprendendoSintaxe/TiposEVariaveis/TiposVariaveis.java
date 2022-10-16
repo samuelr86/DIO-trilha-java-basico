@@ -1,4 +1,4 @@
-package edu.samuel.TiposEVariaveis;
+package edu.aprendendoSintaxe.TiposEVariaveis;
 
 public class TiposVariaveis {
     public static void main(String[] args) {

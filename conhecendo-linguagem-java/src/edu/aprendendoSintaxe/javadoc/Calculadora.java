@@ -1,4 +1,4 @@
-package edu.samuel.javadoc;
+package edu.aprendendoSintaxe.javadoc;
 
 // PRIMEIRO EXEMPLO DE TAGS 
 
