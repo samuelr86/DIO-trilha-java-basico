@@ -2,7 +2,7 @@ package edu.entendendoMetodosJava.retornos;
 
 import java.util.Scanner;
 
-public class Sobrecarga {
+public class Retornos {
     public static void main(String[] args) {
         
         Scanner leitor = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Sobrecarga {
         area(lado);
 
         
-        System.out.println("Qual a area de um retangulo/trapézio?");
+        System.out.println("Qual a area de um retangulo?");
         System.out.println("Informe a base:");
         double base = leitor.nextDouble();
         System.out.println("Informe a altura:");
@@ -35,6 +35,12 @@ public class Sobrecarga {
     
     public static double area(double base, double altura){
         return base * altura;
+        
+    }
+
+
+    public static double area(double base, double baseMenor, double altura){
+        return ((base+baseMenor) * altura)/2;
         
     }
 }

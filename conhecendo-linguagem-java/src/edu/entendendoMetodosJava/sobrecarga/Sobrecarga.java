@@ -14,7 +14,7 @@ public class Sobrecarga {
         area(lado);
 
         
-        System.out.println("Qual a area de um retangulo/trapézio?");
+        System.out.println("Qual a area de um retangulo?");
         System.out.println("Informe a base:");
         double base = leitor.nextDouble();
         System.out.println("Informe a altura:");
@@ -35,6 +35,6 @@ public class Sobrecarga {
     
     public static void area(double base, double altura){
         double area = base * altura;
-        System.out.println("A area do retangulo/trapézio é: "+ area);
+        System.out.println("A area do retangulo: "+ area);
     }
 }
