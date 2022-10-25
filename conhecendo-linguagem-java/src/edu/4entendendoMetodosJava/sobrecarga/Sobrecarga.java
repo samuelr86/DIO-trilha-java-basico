@@ -1,8 +1,8 @@
-package edu.entendendoMetodosJava.retornos;
+
 
 import java.util.Scanner;
 
-public class Retornos {
+public class Sobrecarga {
     public static void main(String[] args) {
         
         Scanner leitor = new Scanner(System.in);
@@ -28,19 +28,13 @@ public class Retornos {
 
     }
 
-    public static double area(double lado){
-        return lado * lado;
-        
+    public static void area(double lado){
+        double area = lado * lado;
+        System.out.println("A area do quadrado é: "+ area);
     }
     
-    public static double area(double base, double altura){
-        return base * altura;
-        
-    }
-
-
-    public static double area(double base, double baseMenor, double altura){
-        return ((base+baseMenor) * altura)/2;
-        
+    public static void area(double base, double altura){
+        double area = base * altura;
+        System.out.println("A area do retangulo: "+ area);
     }
 }
