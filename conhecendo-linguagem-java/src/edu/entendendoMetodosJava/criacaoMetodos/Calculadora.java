@@ -1,6 +1,7 @@
-package edu.entendendoMetodosJava.criacaoMetodos;
+
 
 import java.util.Scanner;
+
 
 /*
  * Crie uma aplicação que resolva as seguintes situações:
@@ -10,11 +11,11 @@ import java.util.Scanner;
  * Defina arbitrariamente as faixas qeu influenciam nos valores.
  */
 
-public class Ex1_Metodos {
-    public static void main(String[] args) {
+public class Calculadora {
+    public static void fazerContas() {
 
         Scanner leitor = new Scanner(System.in);
-
+       
         while (true) {
 
             System.out.println("\nEscolha uma opção para calcular:");
@@ -68,7 +69,7 @@ public class Ex1_Metodos {
                         break;
                     default:
                         System.out.println("\nOpção Inválida.");
-                    System.out.println( "");
+                        System.out.println("");
                         break;
                 }
             }
@@ -80,38 +81,26 @@ public class Ex1_Metodos {
     }
 
     public static String somar(int numero1, int numero2) {
-        String calculo = " <<<< " +numero1 + " + " + numero2 + " = " + (numero1+numero2) + " >>>> ";
+        String calculo = numero1 + " + " + numero2 + " =  <<<< "  + (numero1 + numero2) + " >>>> ";
         return calculo;
     }
 
     public static String subtrair(int numero1, int numero2) {
-        String calculo =" <<<< " + numero1 + " - " + numero2 + " = " + (numero1-numero2) + " >>>> ";
+        String calculo =  numero1 + " - " + numero2 + " =  <<<< "   + (numero1 - numero2) + " >>>> ";
         return calculo;
     }
 
     public static String multiplicar(int numero1, int numero2) {
-        String calculo = " <<<< " +numero1 + " x " + numero2 + " = " + (numero1*numero2) + " >>>> ";
+        String calculo =  numero1 + " x " + numero2 + " =  <<<< "  + (numero1 * numero2) + " >>>> ";
         return calculo;
     }
 
     public static String dividir(double numero1, double numero2) {
-        String calculo = " <<<< " +numero1 + " : " + numero2 + " = " + String.format("%.4f",(numero1/numero2)) + " >>>> ";
+        String calculo =  numero1 + " : " + numero2 + " =  <<<< "  + String.format("%.4f", (numero1 / numero2))
+                + " >>>> ";
         return calculo;
 
     }
 
-    public static String saudacao(int hora) {
-
-        if (hora >= 0 && hora <= 11) {
-            return "Bom dia!";
-        } else if (hora >= 12 && hora < 18) {
-            return "Boa tarde!";
-        } else if (hora >= 18 && hora <= 23) {
-            return "Boa noite!";
-        } else {
-            return "Hora inválida.";
-        }
-
-    }
 
 }
