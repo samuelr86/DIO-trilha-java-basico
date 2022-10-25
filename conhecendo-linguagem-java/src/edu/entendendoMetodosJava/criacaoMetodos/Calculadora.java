@@ -3,14 +3,6 @@
 import java.util.Scanner;
 
 
-/*
- * Crie uma aplicação que resolva as seguintes situações:
- *  - Calcule as 4 operações básicas. Sempre dois valores devem ser passados. [ok]
- *  - A partir da hora do dia, informe a mensagem adequada. [ ]
- *  - Calcule o valor final de um empréstimo, a partir do valor solicitado. Taxas e parcelas influenciam. [ ]
- * Defina arbitrariamente as faixas qeu influenciam nos valores.
- */
-
 public class Calculadora {
     public static void fazerContas() {
 
